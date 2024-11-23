@@ -68,7 +68,7 @@
       activityElement.innerText = 'Fetching activity...'; // Show loading state
       
       try {
-        const response = await fetch('https://panel2.mcboss.top:25569/bored');
+        const response = await fetch('http://panel2.mcboss.top:25569/bored');
         if (!response.ok) {
           throw new Error('Server responded with an error.');
         }
